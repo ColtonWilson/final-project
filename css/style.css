@@ -1,0 +1,32 @@
+header{
+    height: 25px;
+    margin: 2px;
+    color: white;
+    background-color:teal;
+    border: 2px ridge black;
+    text-align: center;
+}
+
+.Nav{
+    background-color: teal;
+    height: 20px;
+    margin: 2px;
+    border: 2px ridge black;
+}
+
+li{
+    display: inline;
+    padding: 33px;
+    color: black;
+}
+a{
+    color:white;
+    text-decoration:none;
+  }
+  a:visited {
+    color: cyan;
+  }
+  
+  a:hover {
+    background-color: lightgreen;
+  }
