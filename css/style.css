@@ -1,3 +1,7 @@
+.media{
+  
+}
+
 header{
     height: 25px;
     margin: 2px;
@@ -6,8 +10,20 @@ header{
     border: 2px ridge black;
     text-align: center;
 }
+.hero-image{
+  background-image: url('img/snake.jpg');
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  text-align: right;
+}
 
 .Nav{
+  
     background-color: teal;
     height: 20px;
     margin: 2px;
@@ -16,7 +32,7 @@ header{
 
 li{
     display: inline;
-    padding: 33px;
+    padding: 10px;
     color: black;
 }
 a{
