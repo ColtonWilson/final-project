@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" >
-    <link rel="about" href="about.html" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="about" href="about.html">
     <link rel="index" href="index.html">
+    <script src="https://kit.fontawesome.com/f899841ffb.js" crossorigin="anonymous"></script>
     <title>Colton James Wilson</title>
-</head>
-<header>
-    Contact
-</header>
-<nav class="Navigation_bar">
-    <ul class= "pages">
+  </head>
+  <body>
+    <div id= "contact-page-container">
+      <div id="content-wrap">
+    <header>
+        Contact
+    </header>
+    <nav class="Navigation_bar">
+      <ul class= "pages">
         <li class= "pages">
             <a href="index.html"> Home </a>
         </li>
@@ -22,12 +26,57 @@
         <li class= "pages">
             <a href="contact.html"> Contact </a>  
         </li>
-    </ul>
-</nav>
-<body class="contact_body" >
-<div class="test">
-    Color????
+      </ul>
+    </nav>
+    <div class="contact_body">
+      <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
 </div>
+    </div>
+    </div>
+    <footer>
     
-</body>
+      <div class= "Social_links">
+          <img class="logo" src = "img\LogoMakr-8wMTYP.png"  alt="Logo">
+          <p class = "indexfooter">  Contact Me!</p>
+          <ul>            
+              <li class="social"><a href="https://www.instagram.com/coltonjameswilson/" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-instagram"></i>
+              </a></li>
+              <li class="social"><a href="https://twitter.com/coltonJwilson"target="_blank" rel="noopener noreferrer" >
+                  <i class="fab fa-twitter"></i>
+              </a></li>
+              <li class="social"><a href="mailto:coltonjameswilson@gmail.com"target="_blank" rel="noopener noreferrer" >
+              <i class="far fa-envelope"></i>
+              </a></li>
+          </ul>
+      </div>
+  </footer>
+
+
+
+</div>
+
+
+  </body>
 </html>
